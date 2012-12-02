@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>jquery.carousel.touch.slider.squadwuschel</id>
+    <version>1.0.2</version>
+    <title>jQuery Touch Slider Carousel</title>
+    <authors>squadwuschel</authors>
+    <owners>squadwuschel</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>- auf dem Modernizr wird nur der Test für touch benötigt, hier kann man also auch seine eigene Version erstellen und nutzen.
+- Auf einem Gerät was Touch verwendet, kann einfach per swipeleft oder swiperight auf dem Slider selbst zur nächsten Folie gewechselt werden
+- Einfach alle js und css Dateien im Projekt einbinden.
+
+Wie der Slider aufgebaut werden muss im HTML Gerüst ist in der jquery.carousel.slider.squadwuschel.1.x.x.js Datei erläutert.</description>
+    <summary>- jQuery Slider der ul und li verwendet
+- Carousel Funktion
+- automatischer Wechsel
+- Wechsel per Mouse
+- Wechsel per Touch geste</summary>
+    <releaseNotes>Neue touch Swipe lib eingebunden - hier wird der code von jQuery Mobile genutzt</releaseNotes>
+    <tags>jquery plugin touch slider carousel</tags>
+    <dependencies>
+      <dependency id="Modernizr" version="2.5.3" />
+      <dependency id="jQuery" version="1.7.2" />
+    </dependencies>
+  </metadata>
+</package>
