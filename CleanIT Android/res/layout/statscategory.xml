@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="113dp"
+        android:layout_y="112dp"
+        android:text="PROBLEMS"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFFF" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="121dp"
+        android:layout_y="41dp"
+        android:text="GRAPHS"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFFF" />
+
+    <Button
+        android:id="@+id/areastat"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_x="14dp"
+        android:layout_y="261dp"
+        android:text="Area Stats" />
+
+    <Button
+        android:id="@+id/monthstat"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_x="166dp"
+        android:layout_y="260dp"
+        android:text="Monthly Stats" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="69dp"
+        android:layout_y="77dp"
+        android:text="Water and Sanitation"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFFF" />
+
+</AbsoluteLayout>

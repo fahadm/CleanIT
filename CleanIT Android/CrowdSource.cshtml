@@ -1,0 +1,226 @@
+﻿@{
+    Layout = "Layout.cshtml";
+
+    if (IsPost)
+    {
+        var ID = 100;
+    <div>
+        <section id="contentx">
+
+            <div class="container_24" style="color: black">
+                Thank You For submitting this Sanitation related Information.
+            </div>
+            
+
+        </section>
+
+    </div>
+        return;
+        
+    }
+    
+}
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<style type="text/css">
+    html
+    {
+        height: 100%;
+    }
+
+    body
+    {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    #dialog1
+    {
+        height: 100%;
+    }
+</style>
+
+<script type="text/javascript">
+    var map = null;
+
+    var LaTLong = null;
+    function initialize() {
+
+        var mapOptions = {
+            center: new google.maps.LatLng(31.4832394, 74.3158639),
+            zoom: 14,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        map = new google.maps.Map(document.getElementById("dialog"),
+            mapOptions);
+
+
+
+    }
+
+
+
+
+
+
+
+
+</script>
+
+<div>
+    <section id="content">
+        <div class="ic"></div>
+        <div class="container_24" style="color: black">
+            <h3> Be a Citizen Reporter</h3>
+            <form action="#" method="post">
+                <table>
+
+                    <tr>
+                        <td>Enter Nic :
+
+                        </td>
+                        <td>
+                            <input id="Text1" type="text" />
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                    </tr>
+                    <tr>
+                        <td>Enter the Location of the Problem:
+
+                        </td>
+                        <td>
+                            <input id="AddressInput" type="text" />
+
+                        </td>
+                        <td>
+                            <button id="MapButton" onload="initialize()">Select Location</button>
+                        </td>
+
+                    </tr>
+                    <tr>
+                    </tr>
+
+                    <tr>
+                        <td>Email
+
+                        </td>
+
+                        <td>
+                            <input id="Email" type="text" />
+
+                        </td>
+                    </tr>
+
+                      <tr>
+                        <td>Photo
+
+                        </td>
+
+                        <td>
+                            
+
+                            <input type="file" />
+
+                        </td>
+                    </tr>
+
+                    <tr>
+                    </tr>
+                    
+
+                    <tr>
+                    </tr>
+
+                    
+
+                    <tr>
+                    </tr>
+
+                    
+                      <tr>
+
+                        <td>Subject
+
+                        </td>
+                        <td>
+                            <input id="subject" />
+
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td>Description
+
+                        </td>
+                        <td>
+                            <textarea id="NewTxt" name="Desc" style="width: 600px; height: 400px">
+
+
+                            </textarea>
+
+                        </td>
+                    </tr>
+
+
+
+
+
+                </table>
+                <div id="dialog" title="Basic dialog" style="width: inherit; height: inherit">
+                </div>
+                <input id="Button1" type="submit" onclick="" value="Submit Complaint" />
+
+
+            </form>
+        </div>
+    </section>
+</div>
+<script>
+    // increase the default animation speed to exaggerate the effect
+
+    $.fx.speeds._default = 1000;
+    $(function () {
+        $("#dialog").dialog({
+            autoOpen: false,
+            show: "blind",
+            hide: "explode"
+        });
+
+
+
+
+        $("#MapButton").click(function () {
+            initialize();
+            $("#dialog").dialog({
+                autoOpen: true,
+                maxWidth: 600,
+                maxHeight: 500,
+                width: 600,
+                height: 500,
+                modal: true,
+                buttons: {
+                    "Save": function () {
+                        alert($("#dialog").map.center);
+
+
+                    },
+                    Cancel: function () {
+                        $(this).dialog("close");
+                    }
+                },
+                close: function () {
+                }
+
+
+            });
+
+
+            return false;
+        });
+    });
+</script>
+

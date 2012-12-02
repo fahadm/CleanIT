@@ -1,0 +1,48 @@
+﻿@{
+    Layout = "Layout.cshtml";
+    var db = Database.Open("HackiT");
+    
+    if ( IsPost)
+    {
+        var query = "Select * from Complaints where id = @0";
+        var rows = db.Query(query, Request["Cid"].ToString());
+        
+        <section id="content" style="color:black">
+        <div class="ic"></div>
+        <div class="container_24" >
+            
+            @foreach (var item in rows)
+	        {
+                <text> <h3>Your Complaint Status is @item.status  </h3></text>
+		 
+	        }
+    
+            </div>
+            </section>
+        return;
+        
+    }
+}
+
+<section id="content">
+        <div class="ic"></div>
+        <div class="container_24" >
+            <text><h3> Get Your Complaint Status</h3></text>
+            <form action="~/ComplaintStatus.cshtml" method="post">
+            <table>
+                <tr>
+                <td>
+                    Enter Complaint ID :
+                </td>
+
+                    <td>
+                        
+                        <input type="text" name="Cid"/>
+                    </td>
+                  </tr>
+                
+            </table>
+                <input type="submit" />
+                </form>
+            </div>
+    </section>
