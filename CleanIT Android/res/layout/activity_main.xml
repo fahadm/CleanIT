@@ -12,8 +12,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="108dp"
         android:scaleX="4"
-        android:scaleY="4"
-         />
+        android:scaleY="4" />
 
     
     <ImageView
@@ -25,8 +24,7 @@
         android:layout_marginTop="30dp"
         android:visibility="invisible" 
         android:scaleX="4"
-        android:scaleY="4"
-        />
+        android:scaleY="4"/>
 
     <ImageView
         android:id="@+id/image2"
@@ -36,8 +34,7 @@
         android:layout_alignTop="@+id/image1"
         android:visibility="invisible" 
         android:scaleX="4"
-        android:scaleY="4"
-        />
+        android:scaleY="4"/>
 
     <ImageView
         android:id="@+id/image3"
@@ -47,7 +44,6 @@
         android:layout_alignTop="@+id/image1"
         android:visibility="invisible" 
         android:scaleX="4"
-        android:scaleY="4"
-        />
+        android:scaleY="4"/>
     
 </RelativeLayout>

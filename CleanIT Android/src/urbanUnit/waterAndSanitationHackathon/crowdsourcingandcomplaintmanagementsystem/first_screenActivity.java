@@ -38,7 +38,7 @@ public class first_screenActivity extends Activity {
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				Intent intent = new Intent (first_screenActivity.this, contact_us.class);
+				Intent intent = new Intent (first_screenActivity.this, complaint_screenActivity.class);
 				startActivity(intent);
 			}
 		});
@@ -56,7 +56,7 @@ public class first_screenActivity extends Activity {
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				Intent intent = new Intent (first_screenActivity.this, ViewStatus.class);
+				Intent intent = new Intent (first_screenActivity.this, complaint_screenActivity.class);
 				startActivity(intent);
 			}
 		});
@@ -65,7 +65,7 @@ public class first_screenActivity extends Activity {
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				Intent intent = new Intent (first_screenActivity.this, statscategory.class);
+				Intent intent = new Intent (first_screenActivity.this, complaint_screenActivity.class);
 				startActivity(intent);
 			}
 		});

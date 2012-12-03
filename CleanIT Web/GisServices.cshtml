@@ -53,8 +53,8 @@
         var count=0
         var InfoArray = new Array();
         
-        function addMarker(location,sub,photo) {
-            alert("Started");
+        function addMarker(location,sub,photo,desc) {
+           // alert("Started");
             marker = new google.maps.Marker({
                 id:count.toString(),
                 position: location,
@@ -75,6 +75,8 @@
                 str= str +"<img src="+photo+" /> ";
             
 
+            str=str+"<p>"+desc+"</p>";
+
 
             
                 
@@ -83,7 +85,7 @@
                 
                 content: str
             });
-            alert("Ended");
+       //     alert("Ended");
             count++;
 
             google.maps.event.addListener(marker, 'click', function() {
@@ -112,8 +114,9 @@
             
             
             var str = "@(item.Subject)";
+            var Desc= "@(item.Description)";
             
-            addMarker(Location,str,c);
+            addMarker(Location,str,c,Desc);
             </text>
                 
             }   
@@ -133,8 +136,9 @@
             
             var str = "@(item.subject)";
             var cid=@(item.ID);
-            alert("Adding Marker");
-            addMarker(Location,str,cid);
+            var Desc= "@(item.Description)";
+         //   alert("Adding Marker");
+            addMarker(Location,str,cid,Desc);
             </text>
                 
             }   

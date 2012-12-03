@@ -33,99 +33,100 @@
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:text=" Crowd Sourcing " />
-
+
         <Button
             android:id="@+id/Status"
             style="?android:attr/buttonStyleSmall"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:text="Complaint Status" />
-
+
         <Button
             android:id="@+id/SenitationArticals"
             style="?android:attr/buttonStyleSmall"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:text="Statistics" />
-
+            android:text="Sanitation Articals" />
+
         <Button
             android:id="@+id/AboutUs"
             style="?android:attr/buttonStyleSmall"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:text="Contact Us" />
+            android:text="About Us" />
 
     </LinearLayout>
-
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="257dp"
-        android:layout_x="236dp"
-        android:layout_y="181dp"
+        android:layout_x="218dp"
+        android:layout_y="176dp"
         android:orientation="vertical" >
-
+
         <TextView
             android:id="@+id/textView1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text=" C "
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:textColor="#FFFF" />
-
+            android:textAppearance="?android:attr/textAppearanceLarge" 
+            android:textColor="#FFFF"/>
+
         <TextView
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text=" L "
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:textColor="#FFFF" />
-
+            android:textColor="#FFFF"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
         <TextView
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text=" E "
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:textColor="#FFFF" />
-
+            android:textColor="#FFFF"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
         <TextView
             android:id="@+id/textView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text=" A "
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:textColor="#FFFF" />
-
+            android:textColor="#FFFF"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
         <TextView
             android:id="@+id/textView5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text=" N "
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:textColor="#FFFF" />
-
+            android:textColor="#FFFF"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
         <TextView
             android:id="@+id/textView6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="   "
             android:textAppearance="?android:attr/textAppearanceLarge" />
-
+
         <TextView
             android:id="@+id/textView7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="  I "
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:textColor="#FFFF" />
-
+            android:textColor="#FFFF"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
         <TextView
             android:id="@+id/textView8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text=" T "
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:textColor="#FFFF" />
+            android:textColor="#FFFF"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
     </LinearLayout>
 
 </AbsoluteLayout>

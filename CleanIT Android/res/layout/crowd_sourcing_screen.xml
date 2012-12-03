@@ -30,10 +30,10 @@
         android:layout_x="13dp"
         android:layout_y="93dp"
         android:text="Name" />
-
+
     <EditText
         android:id="@+id/CSName"
-        android:layout_width="104dp"
+        android:layout_width="89dp"
         android:layout_height="wrap_content"
         android:layout_x="86dp"
         android:layout_y="88dp"
@@ -49,14 +49,23 @@
         android:layout_x="10dp"
         android:layout_y="138dp"
         android:text="Location" />
-
+
     <TextView
         android:id="@+id/CSLocation"
-        android:layout_width="97dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_x="88dp"
         android:layout_y="138dp"
         android:text="Lahore" />
+
+    <Button
+        android:id="@+id/CSFind"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="225dp"
+        android:layout_y="120dp"
+        android:text="Find" />
 
     <TextView
         android:id="@+id/textView5"
@@ -65,6 +74,15 @@
         android:layout_x="9dp"
         android:layout_y="178dp"
         android:text="Photo" />
+
+    <Button
+        android:id="@+id/CSBrowse"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="88dp"
+        android:layout_y="165dp"
+        android:text="Browse" />
 
     <TextView
         android:id="@+id/textView7"
@@ -73,6 +91,14 @@
         android:layout_x="4dp"
         android:layout_y="286dp"
         android:text="Description" />
+
+    <EditText
+        android:id="@+id/CSDescription"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_x="110dp"
+        android:layout_y="280dp"
+        android:inputType="textMultiLine" />
 
     <TextView
         android:id="@+id/textView8"
@@ -105,63 +131,38 @@
         android:layout_x="12dp"
         android:layout_y="57dp"
         android:text="ID" />
-
+
+    <EditText
+        android:id="@+id/CSNic"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_x="109dp"
+        android:layout_y="334dp"
+        android:inputType="numberSigned" />
+
     <EditText
         android:id="@+id/CSEmail"
-        android:layout_width="101dp"
+        android:layout_width="96dp"
         android:layout_height="wrap_content"
-        android:layout_x="86dp"
-        android:layout_y="386dp"
+        android:layout_x="109dp"
+        android:layout_y="392dp"
         android:inputType="textEmailAddress" />
-
-    <Button
-        android:id="@+id/CSSubmit"
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
-        android:layout_x="212dp"
-        android:layout_y="377dp"
-        android:text="Submit" />
-
-    <Button
-        android:id="@+id/CSBrowse"
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
-        android:layout_x="212dp"
-        android:layout_y="162dp"
-        android:text="Browse" />
 
     <AutoCompleteTextView
         android:id="@+id/CSSubject"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="84dp"
-        android:layout_y="214dp"
+        android:layout_x="113dp"
+        android:layout_y="225dp"
         android:text="Subject" />
-
-    <EditText
-        android:id="@+id/CSDescription"
-        android:layout_width="84dp"
+
+    <Button
+        android:id="@+id/CSSubmit"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="90dp"
-        android:layout_y="272dp"
-        android:inputType="textMultiLine" />
-
-    <EditText
-        android:id="@+id/editText1"
-        android:layout_width="97dp"
-        android:layout_height="wrap_content"
-        android:layout_x="85dp"
-        android:layout_y="160dp"
-        android:inputType="textPersonName" />
-
-    <EditText
-        android:id="@+id/CSNic"
-        android:layout_width="161dp"
-        android:layout_height="wrap_content"
-        android:layout_x="86dp"
-        android:layout_y="326dp"
-        android:inputType="numberSigned" />
+        android:layout_x="232dp"
+        android:layout_y="404dp"
+        android:text="Submit" />
     
 </AbsoluteLayout>
